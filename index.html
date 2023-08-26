@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshan Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(0, 0, 33,0.1);
+            height: 3em;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style:  none;
+            margin:  0 2em;
+        } 
+        nav ul li a{
+            text-decoration:  none;
+            color: white;
+        }
+        nav ul li a  :hover{
+            
+            color: rgb(147, 147, 220);
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 5em 0;
+        }
+        .firstSection div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .rightSection img{
+            width: 80%;
+
+        }
+        .purple{
+            color: rgb(130, 53, 202);
+        }
+        .MEAN{
+            color: rgb(191, 191, 120);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Roshan </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="firstSection">
+        <div class="leftSection">
+            Hi, My name is  <span class="purple">Roshan</span> 
+            <div>and I am a <span class="MEAN">MEAN</span> Stack Developer</div>
+        </div>
+        <div class="rightSection">
+            <img src="backgroundImg.png" alt="backGround">
+        </div>
+    </main>
+    
+</body>
+</html>
